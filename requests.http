@@ -1,0 +1,31 @@
+
+### Get all books
+GET http://localhost:3000/books
+
+### Get book with ID 1
+GET http://localhost:3000/books/1
+
+### Add a book
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "Harry Potter",
+  "author": "J.K. Rowling",
+  "price": 500,
+  "pages": 350
+}
+
+### Update book with ID 1
+PUT http://localhost:3000/books/1
+Content-Type: application/json
+
+{
+  "title": "The Hobbit",
+  "author": "J.R.R. Tolkien",
+  "price": 400,
+  "pages": 310
+}
+
+### Delete book with ID 1
+DELETE http://localhost:3000/books/1
