@@ -141,7 +141,7 @@ DELETE http://localhost:3000/books/1
 
 The endpoint deletes the record matching the specified book ID.
 
-![DELETE book tested in Hoppscotch](screenshots/Screenshot%202026-11-02%20150236%282%29.png)
+![DELETE book tested in Hoppscotch](screenshots/Screenshot%202026-11-02%20150236.png)
 
 ## Implementation Notes
 
